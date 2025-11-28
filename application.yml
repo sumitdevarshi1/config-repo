@@ -1,0 +1,14 @@
+global:
+  message: welocme to GME
+logging:
+level:
+  root: INFO
+managment: 
+  endpoints:
+    web:
+      exposure: 
+        include: health, info, refresh
+  endpoint:
+    health: 
+      show-details: always
+  
